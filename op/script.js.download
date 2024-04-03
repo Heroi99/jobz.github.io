@@ -1,0 +1,3 @@
+function startchat() {
+    window.open('https://qcxlnss.com/cl/de085e05eaf349bb', '_blank');
+}

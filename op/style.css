@@ -1,0 +1,305 @@
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        display: flex;
+    }
+    
+    .page{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    
+    .toolbar{
+        display: flex;
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .toolbar #title{
+        font-size: 24px;
+        font-weight: bold;
+        color: #252525;
+    }
+    
+    .toolbar #countryf{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 0px 8px 0px 0px;
+    }
+    
+    .context{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        align-items: center;        
+    }
+     
+     .toolimg{
+         display: flex;
+         width: 100%;
+         height: auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .toolimg #img{
+         display: flex;
+         width: auto;
+         height: 200px;
+     }
+     
+     
+     .steps{
+         display: flex;
+         width: 100%;
+         height: 110px;
+         justify-content: center;
+         align-items: center;
+         margin: 30px 0px 20px 0px;
+     }
+     
+     .step1{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 150px;
+         height: 100%;
+         text-align: center;
+     }
+     
+     .step2{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 150px;
+         height: 100%;
+         text-align: center;
+     }
+     
+     .step3{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: auto;
+         height: 100%;
+         text-align: center;
+     }
+     
+     .step1 .sn{
+         width: auto;
+         height: auto;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         background: linear-gradient(to right, #6cb976, #76ca81);
+         font-size: 22px;
+         font-weight: bold;
+         color: #fff;
+         padding: 1px 7px 1px 7px;
+         border-radius: 15px;
+     }
+     
+     
+     .step2 .sn{
+         width: auto;
+         height: auto;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         background-color: #bfbfbf;
+         font-size: 22px;
+         font-weight: bold;
+         color: #fff;
+         padding: 1px 7px 1px 7px;
+         border-radius: 15px;
+     }
+     
+     .step1 p{
+         font-size: 16px;
+         font-weight: bold;
+         color: #6cb976;
+         margin-top: 5px;
+     }
+     
+     .step2 p{
+         font-size: 16px;
+         font-weight: bold;
+         color: #bfbfbf;
+         margin-top: 5px;
+     }
+     
+     .fasle{
+         display: flex;
+         background-color: #898989;
+         height: 2px;
+         width: 40px;
+         border-radius: 20px;
+         margin-top: 25px;
+     }
+     
+     .button{
+         display: flex;
+         width: 100%;
+         height: auto;
+         justify-content: center;
+         align-items: center;
+         animation: pulse 2s infinite;
+     }
+     
+       @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.03);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+     
+      .button .content{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 60px;
+          background: linear-gradient(to right, #6cb976, #76ca81);
+          margin: 50px 40px 0px 40px;
+          border-radius: 15px;
+      }
+      
+      .button .content #callimg{
+          width: 25px;
+          height: 25px;
+      }
+      
+      .button .content #title{
+          font-size: 21px;
+          font-weight: bold;
+          color: #fff;
+          margin: 0px 0px 0px 5px;
+      }
+      
+      .whenter{
+          width: 100%;
+          height: auto;
+          display: flex;
+          margin: 5px 0px 0px 0px
+          justify-content: center;
+          align-items: center;
+      }
+@media (max-width: 768px) {
+  .button {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+  }
+
+  .button img {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto;
+  }
+}      
+@media (max-width: 768px) {
+  .import {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
+  .import img {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+  }
+}
+       
+       .import .content{
+           display: flex;
+           flex-direction: column;
+           width: 100%;
+           height: auto;
+           justify-content: center;
+           align-items: center;
+           margin: 0px 30px 30px 30px;
+           background-color: #f2f2f2;
+           border-radius: 20px;
+       }
+       
+       .imptxt{
+           width: 100%;
+           height: auto;
+           display: flex;
+           align-items: center;
+       }
+       
+       .imptxt #imimg{
+           width: 30px;
+           height: 30px;
+           margin: 0px 5px 0px 5px;
+       }
+       
+       .imptxt #imtitle{
+           font-size: 21px;
+           font-weight: bold;
+           color: #ffb400;
+           margin: 0px 0px 0px 4px;
+       }
+      
+      
+       .imtx{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           height: auto;
+       }
+       
+       .imtx #callimg{
+           width: 20px;
+           height: 20px;
+       }
+       
+       .imtx #imtxt{
+           width: 100%;
+           height: auto;
+           text-align: center;
+           margin: 0px 5px 5px 5px;
+       }
+       
+       
+       .copyright{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           width: 100%;
+           height: auto;
+           background-color: #46C35F;
+           font-size: 16px;
+           color: #fff;
+           font-weight: bold;
+           text-align: center;
+           padding: 10px 0px 10px 0px;
+       }
+              
